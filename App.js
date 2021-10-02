@@ -1,10 +1,15 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
+import Home from './screens/Home';
+import Quiz from './screens/Quiz';
+import Result from './screens/Result';
 
 export const App = () => {
   return (
     <View style={styles.container}>
-      <Text>This is Quizzier</Text>
+      {/* <Home /> */}
+      {/* <Quiz /> */}
+      <Result />
     </View>
   );
 };
